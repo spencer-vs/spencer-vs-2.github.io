@@ -1463,7 +1463,33 @@ padding-top: 3rem;
 
 
 
+.sign__up {
+  font-size: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 2rem;
+}
 
+.sign_up {
+
+    text-decoration: none;
+    border: 0.2rem solid;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    transition: all .6s;
+    background-color: #000;
+    color: #e74f4f;
+}
+
+
+
+.sign_up:hover {
+ color: #f1f1f1;
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
 
 
 @media only screen and (min-device-width: 320px)
