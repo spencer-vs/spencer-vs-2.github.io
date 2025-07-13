@@ -1,0 +1,177 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="utd.css">
+<script src="/utd.js" defer></script>
+<title>United Store | Login and Registration</title>
+</head>
+<body>
+  
+ 
+<body class="light-theme sign-in-body">
+<section class="section-header">
+    <header class="b-header"  id="header">
+       <div class="first-header">
+        <div class="nav-button">
+    <button class="btn-1 white-btn" id="loginBtn" onclick="login()">Login</button>
+    <button class="btn-1 white-btn-1" id="registerBtn" onclick="register()">Sign Up</button>
+   </div> 
+        </div>
+      
+      
+        
+        
+
+<div class="second-header">
+<button class="search-icon" id="search-icon">
+       <i class="ri-search-line"></i>
+       
+</button>
+
+<button class="icons" id="theme-toggle-btn">
+       
+       <i class="ri-sun-line sun-icon"></i>
+       <i class="ri-moon-line moon-icon"></i>
+</button>
+
+<button class="nav-menu-btn">
+<i class="ri-menu-line" onclick="myMenuFunction()"></i>
+</button>
+</div>
+
+        <div class="nav-menu" id="navMenu">
+         <ul class="list">
+                <li class="list-link">
+                    <a href="/blog.html" class="list-item">Blog and News</a>
+                </li>
+
+               
+                <li class="list-link">
+                    <a href="fixtures.html" class="list-item">Fixtures</a>
+                </li>
+
+                <li class="list-link">
+                    <a href="united-store.html" class="list-item">United Store</a>
+                </li>
+
+                <li class="list-link">
+                    <a href="trophies.html" class="list-item">Trophies</a>
+                </li>
+
+                <li class="list-link">
+                    <a href="Players.html" class="list-item">Players</a>
+                </li>
+                  </ul>
+
+           
+        </div>
+
+        <img class="header-image" src="/img/OldTrafford.jpg" alt="">   
+    
+
+  
+ <div class="form-box">
+  
+   <div class="login-container" id="login">
+       <div class="top">
+        <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
+        <header>Login</header>
+       </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Username or Email">
+        </div>
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Password">
+           
+        </div>
+        <div class="input-box">
+            <input type="submit" class="submit" value="Login">
+        </div>
+        <div class="two-col">
+            <div class="one">
+                <input type="checkbox" id="Login-check">
+                <label for="register-check">Remember Me |</label>
+                </div>
+                <div class="two">
+                    <label><a href="#">Forgot Password?</a></label>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+   
+    
+   
+   
+   
+    <div class="register-container" id="register">
+       <div class="top">
+        <span>Have an account? <a href="#" onclick="login()">Login</a></span>
+        <header>Sign Up</header>
+       </div>
+       <div class="two-forms">
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Firstname">
+            
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Lastname">
+            <i class="ri-mail-line"></i>
+            
+        </div>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Email">
+        </div>
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Password">
+           
+        </div>
+        <div class="input-box">
+            <input type="submit" class="submit" value="Register">
+        </div>
+        <div class="two-col">
+            <div class="one">
+                <input type="checkbox" id="register-check">
+                <label for="register-check">Remember Me |</label>
+                </div>
+                <div class="two">
+                    <label><a href="#">Terms & Conditions</a></label>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    
+    
+    
+    </header>
+    </section>
+
+ <section class="section-search">
+     <div class="search-body" id="search-form-container">
+    <div class="search-box">
+        <div class="search-row">
+            <input type="text" id="input-box" placeholder="search anything" autocomplete="off">
+            <button><i class="ri-search-line search-button"></i></button>
+        </div>
+        <div class="result-box">
+            
+        </div>
+      <span class="search-close">Or Press ESC key to close</span>
+    </div>
+    <button class="btn-close form-close-btn" id="form-close-btn"><i class="ri-close-line"></i></button>
+  </section>
+    </section>
+
+
+    
+    
+    
+ </body> 
+</html>
