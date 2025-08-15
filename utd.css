@@ -155,6 +155,10 @@ body.light-theme {
  
 }
 
+.sign-up-header {
+  background-image: url(./OldTrafford.jpg);
+}
+
 .sign-in {
   color: #fff;
   text-decoration: none;
