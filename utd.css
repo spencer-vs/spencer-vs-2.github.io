@@ -42,7 +42,7 @@ body.light-theme {
 }
 
 .sign-in-body {
-  background-image: url('./OldTrafford.jpg');
+  background-image: url(./OldTrafford.jpg);
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
@@ -155,9 +155,7 @@ body.light-theme {
  
 }
 
-.sign-up-header {
-  background-color: #252830;
-}
+
 
 .sign-in {
   color: #fff;
