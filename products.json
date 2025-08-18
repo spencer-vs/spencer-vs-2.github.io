@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Home Jersey",
+        "price": 200,
+        "image": "/img/home-1.jpg"
+    },
+
+
+     {
+        "id": 2,
+        "name": "Home Jersey",
+        "price": 200,
+        "image": "/img/home-1.jpg"
+    },
+
+
+
+     {
+        "id": 3,
+        "name": "Home Jersey",
+        "price": 200,
+        "image": "/img/home-1.jpg"
+    },
+
+
+
+     {
+        "id": 4,
+        "name": "Away Jersey",
+        "price": 200,
+        "image": "/img/Away.jpg"
+    },
+
+
+
+     {
+        "id": 5,
+        "name": "Away Jersey",
+        "price": 200,
+        "image": "/img/Away.jpg"
+    },
+
+
+     {
+        "id": 6,
+        "name": "Away Jersey",
+        "price": 200,
+        "image": "/img/Away.jpg"
+    },
+
+
+
+     {
+        "id": 7,
+        "name": "Third Jersey",
+        "price": 200,
+        "image": "/img/third-2.jpg"
+    },
+
+
+     {
+        "id": 8,
+        "name": "Third Jersey",
+        "price": 200,
+        "image": "/img/third-2.jpg"
+    }
+
+
+]
+
+
