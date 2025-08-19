@@ -1111,7 +1111,7 @@ body.showCart .container {
 
 .section-post {
   background-color: #79270e;
-  margin-top: 15rem;
+  margin-top: 25rem;
 }
 
 .blog-post {
@@ -1342,7 +1342,7 @@ padding-left: 22rem;
 
 .developer-details {
    left: 0;
-   margin-top: 15rem;
+   margin-top: 10rem;
    padding-left: 5rem;
    
 }
@@ -1611,7 +1611,7 @@ display: flex;
 flex-direction: column;
 top: 30%;
 position: absolute; 
-padding-left: 35rem;
+padding-left: 25rem;
 
 
 
@@ -1633,7 +1633,7 @@ padding-left: 35rem;
   display: flex;
   width: 23rem;
   height: 23rem;
-  padding-left: 22rem;
+  padding-left: 10rem;
   padding-top: 10rem;
  
 }
