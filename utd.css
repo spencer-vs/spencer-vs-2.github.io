@@ -1323,7 +1323,7 @@ button .search-button {
 float: right;
 top: 50%;
 position: absolute; 
-padding-left: 22rem;
+padding-left: 15rem;
 }
 
 
@@ -1360,7 +1360,7 @@ padding-left: 22rem;
   display: flex;
   width: 23rem;
   height: 23rem;
-  padding-left: 45rem;
+  padding-left: 20rem;
   padding-top: 5rem;
  
 }
@@ -1383,6 +1383,7 @@ padding-left: 22rem;
   text-transform: uppercase;
   font-size: 1.5rem;
   padding-right: 2rem;
+  margin-bottom: 5rem;
   
  
 }
